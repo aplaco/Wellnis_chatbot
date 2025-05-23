@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Wellnis Chatbot</title>
+    <meta charset="UTF-8">
+    <style>
+        body { font-family: Arial; padding: 2rem; background: #F8F8F8; }
+        .chat-box { max-width: 600px; margin: auto; }
+        .chat { background: #fff; padding: 1rem; border-radius: 8px; margin-bottom: 1rem; box-shadow: 0 0 5px rgba(0,0,0,0.1); }
+        .user { font-weight: bold; }
+        .bot { color: #333; margin-top: 0.5rem; }
+        form { display: flex; margin-top: 1rem; }
+        input[type="text"] { flex: 1; padding: 0.5rem; font-size: 1rem; }
+        input[type="submit"] { padding: 0.5rem 1rem; }
+    </style>
+</head>
+<body>
+    <div class="chat-box">
+        <h1>🤖 Wellnis Chatbot</h1>
+        {% for chat in chat_history %}
+            <div class="chat">
+                <div class="user">🙋 사용자: {{ chat.user }}</div>
+                <div class="bot">🤖 챗봇: {{ chat.bot }}</div>
+            </div>
+        {% endfor %}
+        <form method="post">
+            <input type="text" name="user_input" placeholder="메시지를 입력하세요..." required autocomplete="off">
+            <input type="submit" value="전송">
+        </form>
+    </div>
+    <script>
+        window.onload = function() {
+            window.scrollTo(0, document.body.scrollHeight);
+        };
+    </script>
+</body>
+</html>
