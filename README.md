@@ -4,6 +4,11 @@
 
 ![wellnis chatbot](https://github.com/user-attachments/assets/b4daadd8-70d0-43b0-b151-03e4097e648e)
 
+OneShot 프롬프트 적용
+
+![wellnis_oneshot](https://github.com/user-attachments/assets/bbc4c071-99df-4dc8-a144-232e264e8f6a)
+
+
 ## Pretrained Model
 
 https://huggingface.co/unsloth/Meta-Llama-3.1-8B
