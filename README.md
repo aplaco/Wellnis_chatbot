@@ -8,6 +8,11 @@ OneShot 프롬프트 적용
 
 ![wellnis_oneshot](https://github.com/user-attachments/assets/bbc4c071-99df-4dc8-a144-232e264e8f6a)
 
+TwoShot 프롬프트 적용
+
+![wellnis_twoshot](https://github.com/user-attachments/assets/a65273d9-eb99-4a70-bb17-56b0248c3a6b)
+
+
 
 ## Pretrained Model
 
