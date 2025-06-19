@@ -12,6 +12,11 @@ TwoShot 프롬프트 적용
 
 ![wellnis_twoshot](https://github.com/user-attachments/assets/a65273d9-eb99-4a70-bb17-56b0248c3a6b)
 
+langchain 적용
+
+![wellnis_langchain](https://github.com/user-attachments/assets/d18248c8-e5a1-4534-83e4-2178983c24f5)
+
+
 
 
 ## Pretrained Model
